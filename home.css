@@ -1,0 +1,19 @@
+body {
+	background-color: #d3cce3;
+}
+
+#current-page {
+    color: #f7cf7c;
+}
+
+#author {
+    color: #D3CCE3;
+}
+
+.nav-link:hover{
+    background-color: #585481;
+}
+
+.navbar {
+	background-color: #00008B !important;
+}

@@ -1,0 +1,76 @@
+.container {
+    margin-top: 5rem;
+    width: 30rem;
+}
+
+.playerInfo {
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+.infoDescription {
+    margin-left: 3rem;
+    color: #4b3f72;
+}
+
+.oneRow {
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 500px) {
+    
+    .container {
+        width: 100%;
+    }
+    
+    .playerInfo {
+        font-size: 1.3rem;
+    }
+
+    .infoDescription {
+        margin-left: 10%;
+    } 
+}
+
+@media (max-width: 408px) {
+    
+    .container {
+        margin-top: 7rem;
+    }
+
+    .playerInfo {
+        font-size: 1.2rem;
+    }      
+}
+
+@media (max-width: 388px) {
+    
+    .playerInfo {
+        font-size: 1.1rem;
+    }
+
+    .infoDescription {
+        font-size: 0.9rem;
+    }   
+}
+    
+@media (max-width: 360px) {
+      
+    .infoDescription {
+        margin-left: 0rem;
+    }  
+}
+    
+@media (max-width: 332px) {
+      
+    .playerInfo {
+        font-size: 1rem;
+    } 
+}
+
+@media (max-width: 258px) {
+    
+    .container {
+        margin-top: 9rem;
+    }  
+}

@@ -1,0 +1,71 @@
+.container {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    width: 25rem;
+}
+
+.formName, .newResultName {
+    color: #4b3f72;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+form {
+    margin-top: 1.7rem;
+}
+
+#tournamentSubmit {
+    margin-top: 1.3rem;
+}
+
+.form-control {
+    border:0.15rem solid #4b3f72;
+}
+
+label {
+    color: #4b3f72;
+    font-size: 1.1rem;
+}
+
+.btn-primary {
+    margin-bottom: 3rem;
+}
+
+.viewNewRank {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+table {
+    margin-top: 1rem;
+    border-collapse: separate;
+}
+
+table, th, td {
+    border:1px solid grey;
+}
+
+th, td {
+    color: #4b3f72;
+}
+
+@media (max-width: 469px) {
+    
+    .container {
+        margin-top: 7rem;
+    }
+}
+
+@media (max-width: 430px) {
+    
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 319px) {
+    
+    .container {
+         margin-top: 9rem;
+    }
+}

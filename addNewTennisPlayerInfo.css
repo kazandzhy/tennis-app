@@ -1,0 +1,64 @@
+.container {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    width: 25rem;
+}
+
+.formName {
+    color: #4b3f72;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+form {
+    margin-top: 1.7rem;
+}
+
+#tennisSubmit {
+    margin-top: 1.3rem;
+}
+
+input[type="text"], input[type="date"] {
+    border:0.15rem solid #4b3f72;
+}
+
+input[type="date"] {
+    color: #4b3f72;
+}
+
+label {
+    color: #4b3f72;
+    font-size: 1.1rem;
+    }
+
+@media (max-width: 420px) {
+    
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 410px) {
+    
+    .container {
+        margin-top: 7rem;
+    }
+}
+
+@media (max-width: 340px) {
+    
+    .formName {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+@media (max-width: 259px) {
+    
+    .container {
+        margin-top: 9rem;
+    }
+}
+
+
